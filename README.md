@@ -1,6 +1,4 @@
-# Nexus (formerly MindMeld)
-
-> **Note**: We're in the process of renaming the project from MindMeld to Nexus. Some parts of the codebase and documentation still use the old name.
+# Nexus
 
 Nexus is a full-stack application designed to facilitate group deliberation using AI. It draws inspiration from platforms like [Polis](https://pol.is/home) and [Community Notes by X](https://www.lesswrong.com/posts/sx9wTyCp5kgy8xGac/community-notes-by-x). You can access the deployment [here](https://nexus-tool.com).
 
@@ -47,8 +45,8 @@ The branding and design system documentation can be found at `/design`. You can 
 Build and run the development container:
 ```bash
 cd backend
-docker build -f Dockerfile.dev -t mindmeld-backend-dev . --no-cache --platform linux/amd64
-docker run -p 3001:3001 -v $(pwd):/app -v /app/node_modules mindmeld-backend-dev
+docker build -f Dockerfile.dev -t nexus-backend-dev . --no-cache --platform linux/amd64
+docker run -p 3001:3001 -v $(pwd):/app -v /app/node_modules nexus-backend-dev
 ```
 
 ### Docker compose

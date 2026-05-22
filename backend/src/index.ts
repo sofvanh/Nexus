@@ -28,7 +28,7 @@ const io = new Server(server, {
 app.use(express.json());
 
 app.get('/', (req, res) => {
-  res.json({ message: 'Welcome to the MindMeld backend!' });
+  res.json({ message: 'Welcome to the Nexus backend!' });
 });
 
 app.get('/api/cache-stats', (req, res) => {

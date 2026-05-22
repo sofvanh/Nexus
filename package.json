@@ -1,7 +1,7 @@
 {
-  "name": "mindmeld",
+  "name": "nexus",
   "version": "1.0.0",
-  "description": "MindMeld deliberation tool",
+  "description": "Nexus deliberation tool",
   "scripts": {
     "start:frontend": "cd frontend && npm start",
     "start:backend": "cd backend && npm start",

@@ -23,7 +23,7 @@ export default function Footer() {
           <div className="flex flex-col text-stone-400">
             <Link to="/">Home</Link>
             <Link to="/docs">Docs</Link>
-            <a href="https://github.com/sofvanh/mindmeld" target="_blank" rel="noopener noreferrer" className="inline-flex items-center">
+            <a href="https://github.com/sofvanh/Nexus" target="_blank" rel="noopener noreferrer" className="inline-flex items-center">
               GitHub
             </a>
           </div>
