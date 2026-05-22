@@ -1,5 +1,9 @@
 # Nexus
 
+[![Backend Deploy](https://github.com/sofvanh/Nexus/actions/workflows/backend-deploy.yml/badge.svg)](https://github.com/sofvanh/Nexus/actions/workflows/backend-deploy.yml)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/be740b44-a2ac-4937-8923-fe76d351ed0e/deploy-status)](https://nexus-tool.com)
+[![License: GPL v3](https://img.shields.io/badge/License-GPL_v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
 Nexus is a full-stack application designed to facilitate group deliberation using AI. It draws inspiration from platforms like [Polis](https://pol.is/home) and [Community Notes by X](https://www.lesswrong.com/posts/sx9wTyCp5kgy8xGac/community-notes-by-x). You can access the deployment [here](https://nexus-tool.com).
 
 ## Development Setup

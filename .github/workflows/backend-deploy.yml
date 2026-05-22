@@ -1,4 +1,4 @@
-name: Build and Deploy Backend
+name: ci-backend
 
 on:
   push:
@@ -63,7 +63,7 @@ jobs:
           cd backend
           BUILD_ID=$(gcloud builds submit --tag gcr.io/mindmeld-backend/mindmeld:${{ steps.version.outputs.version }} --format='get(id)' --async)
           echo "build_id=$BUILD_ID" >> $GITHUB_OUTPUT
-          
+
           echo "Waiting for build to complete..."
           while true; do
             STATUS=$(gcloud builds describe $BUILD_ID --format='get(status)')
