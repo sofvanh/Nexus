@@ -17,7 +17,7 @@ WORKDIR /app
 ENV NODE_ENV="production"
 ENV BACKEND_URL="https://mindmeld-87770296075.europe-west1.run.app"
 ENV PORT=3000
-ENV FRONTEND_URLS="https://mindmeldtool.netlify.app,https://nexus-tool.com"
+ENV FRONTEND_URLS="https://nexus-tool.netlify.app,https://nexus-tool.com"
 ENV CLOUD_SQL_CONNECTION_NAME="mindmeld-backend:europe-west1:mindmeld-db"
 
 COPY package*.json ./
